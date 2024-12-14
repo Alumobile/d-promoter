@@ -49,7 +49,7 @@ es_port = os.environ.get('ES-PORT', '9200')
 es_index = os.environ.get('ES-INDEX', 'backend')
 client = Elasticsearch7([f'http://{es_host}:{es_port}'])
 
-pg_host = os.environ.get('POSTGRES-HOST', '195.35.43.64')
+pg_host = os.environ.get('POSTGRES-HOST', 'relacional-database')
 pg_port = os.environ.get('POSTGRES-PORT', '5432')
 pg_user = os.environ.get('POSTGRES-USER','root')
 pg_password = os.environ.get('POSTGRES-PASSWORD','Letr@shop2024')
